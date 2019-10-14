@@ -1,0 +1,16 @@
+{
+  "name": "mailstats-influx",
+  "version": "0.0.0",
+  "description": "Reads imap folders and pushes unseen (unread!) and total numbers to influx.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imap": "^0.8.19",
+    "influx": "^5.4.2"
+  }
+}
