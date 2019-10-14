@@ -1,13 +1,29 @@
 module.exports = {
+	// gets tagged in influxdb
+	configname: "Privat",
+
+	// which IMAP-folders to check
 	folders: [
 		"INBOX",
 		"Archives/2019"
 	],
+
+	// imap settings
 	imap: {
 		user: "imap username here",
 		password: "imap password here",
 		host: "imap.example.com",
 		port: 993,
 		tls: true
+	}
+
+	// influxdb settings
+	influxdb: {
+		protocol: "https",
+		host: "influx.example.com",
+		port: 443,
+		database: "some_database",
+		basic_auth_username: "Ken",
+		basic_auth_password: "p/q2-q4!"
 	}
 };
