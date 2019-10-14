@@ -9,4 +9,4 @@ in all the details.
 
 ## Usage
 
-    node index.js config.js
+    node index.js ./config.js
