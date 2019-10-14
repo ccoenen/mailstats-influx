@@ -1,6 +1,9 @@
 # Mailstats Influx
 
-Posts the number of mails in an IMAP dir to influxdb
+Posts the number of mails in an IMAP dir to influxdb. This can be turned into
+nice charts in any number of ways. I'm using Grafana:
+
+![Grafana-Example-Chart](grafana-example-chart.png)
 
 ## Setup
 
