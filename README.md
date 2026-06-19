@@ -1,5 +1,8 @@
 # Mailstats Influx
 
+> [!NOTE]
+> New Repository Location: [codeberg.org/ccoenen/mailstats-influx](https://codeberg.org/ccoenen/mailstats-influx). This one here is archived.
+
 Posts the number of mails in an IMAP dir to influxdb. This can be turned into
 nice charts in any number of ways. I'm using Grafana:
 
